@@ -1,18 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family:system-ui;
 }
 
 header{
+    height: 10vh;
     background-color: #4A505E; 
     display: flex; 
     align-items: center; 
+    padding-bottom:5%;
+    padding-top: 5%;
 }
 
 header img{
     padding-left: 10px;
     margin-right: 10px;
     width: 5em;
-    height: 4em;
 }
 
 header button{
@@ -20,14 +26,14 @@ header button{
 }
 
 .hdr{
-    height: 50%;
     display: flex;
+    flex-direction: column;
     border: 2px solid white;
 }
 
 .hdr button{
     font-size:10px;
-    float: left;
+    padding:3px;
     background-color: #4A505E; 
     border: none;
     color: white;
@@ -35,6 +41,7 @@ header button{
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
+    
 }
 .hdr button:hover{
     background-color: white;
@@ -46,12 +53,12 @@ header button{
     }
 
 button.red{
-    position:relative;
+    position:absolute;
     right:0;
     border: 2px solid #e81a4b;
     background-color: #4A505E; 
     color: white;
-    margin: 3%;
+    margin: 5%;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -62,16 +69,6 @@ button.red{
 .red:hover{
     background-color: #e81a4b;
     color: white;
-}
-
-
-.fa-solid{
-    color: white;
-    
-}
-
-.fa-solid:hover {
-    animation: fa-bounce 1s infinite;
 }
 
 
