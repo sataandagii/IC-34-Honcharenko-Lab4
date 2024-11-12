@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style1.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a1e6aa6fe6.js" crossorigin="anonymous"></script>
+    <title>Лабораторна 3</title>
+</head>
+
+<body>
+  <header>
+    
+    <img src = "logo.svg" alt="Logo"/>
+    <div class="hdr">
+      <button><b>Каталог</b></button>
+      <button><b>Про нас</b></button>
+      <button><b>Умови замовлення</b></button>
+    </div>
+      <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+      <button class="red"><b>Кошик</b></button>
+    
+  </header>
+  <main>
+    <div class="greet">
+      <h1>Вітаємо у SmartMeb!</h1>
+    </div>
+
+    
+    <h2 style="text-align: center;">Доступні категорії товарів:</h2>
+    <div class="categories">
+
+      <div class="card">
+        <div class="picture">
+          <img src="products/chair.png" alt="chair" width="200" height="200">
+        </div>
+
+        <div class="productname">
+          <p>Стільці</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="picture">
+          <img src="products/couch.png" alt="couch" width="200" height="200">
+        </div>
+
+        <div class="productname">
+          <p>Дивани</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="picture">
+          <img src="products/table.png" alt="table" width="200" height="200">
+        </div>
+
+        <div class="productname">
+          <p>Столи</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="picture">
+          <img src="products/closet.png" alt="closet" width="200" height="200">
+        </div>
+
+        <div class="productname">
+          <p>Шафи</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="picture">
+          <img src="products/bed.png" alt="bed" width="200" height="200">
+        </div>
+
+        <div class="productname">
+          <p>Ліжка</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="characteristics">
+    <h2>Характеристики товару:</h2>
+    <table class="prdct">
+        <tr style="color:#C20331">
+          <th>Назва товару</th>
+          <th>Ціна</th>
+          <th>Матеріал</th>
+          <th>Колір</th>
+          <th>Розмір</th>
+        </tr>
+        <tr>
+          <td>Стул</td>
+          <td>$50</td>
+          <td>Дерево</td>
+          <td>Білий</td>
+          <td>40x40x90</td>
+        </tr>
+        <tr>
+            <td>Диван</td>
+            <td>$300</td>
+            <td>Такнина</td>
+            <td>Сірий</td>
+            <td>200x90x85</td>
+        </tr>
+        <tr></tr>
+            <td>Стіл</td>
+            <td>$150</td>
+            <td>Метал</td>
+            <td>Чорний</td>
+            <td>120x60x75</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="tutorial">
+      <h2>Як оформити замовлення?</h2>
+      <ol class="rectangle">
+        <li><a>Оберіть потрібну категорію меблів.</a></li>
+        <li><a>Додайте ваш товар у кошик.</a></li>
+        <li><a>Оформіть замовлення вказав контактні дані.</a></li>
+        <li><a>Отримайте замовлення протягом 5 робочих днів!</a></li>
+      </ol>
+    </div>
+
+    <div class="register">
+      <h2>Зареєструйтеся, щоб оформити замовлення:</h2>
+
+      <form>
+        <label for="username">Ім'я користувача:</label><br>
+        <input class="impt" type="text" id="username" name="username" required><br><br>
+        
+        <label for="email">Електронна пошта:</label><br>
+        <input class="impt" type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Телефон:</label><br>
+        <input class="impt" type="tel" id="phone" name="phone"><br><br>
+        
+        <label for="address">Адреса доставки:</label><br>
+        <input class="impt" type="text" id="address" name="address"><br><br>
+
+        <input class="sbmt" type='submit' value='Надіслати'>
+      </form>
+    </div>
+    <div class="link">
+      <h2>Посилання</h2>
+      <a href="descrpt.html">Посилання на опис предметної області</a>
+    </div>
+  </main>
+    </body>
+</html>
