@@ -28,8 +28,7 @@ header button{
 
 .hdr button{
     font-size:10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px 5px;
     background-color: #4A505E; 
     border: none;
     color: white;
@@ -197,6 +196,39 @@ td {
  }
 
 
+@media (min-width: 768px){
+    header img{
+        width: 10em;
+    }
+
+    .hdr button{
+        font-size:15px;
+    }
+
+    .red{
+        font-size:15px;
+    }
+
+    .card{
+        font-size:15px; 
+        width: 160px;
+    }
+
+    .card img{
+        width: 100%;
+    }
+
+    .tutorial{
+        font-size:15px;
+    }
+
+    .register{
+        font-size:15px;
+    }
+}
+
+
+
 @media (min-width: 1024px) {
     header img{
         width: 15em;
@@ -210,8 +242,21 @@ td {
         font-size:20px;
     }
 
+    .card{
+        font-size:20px; 
+        width: 220px;
+    }
+
     .card img{
-        width: 200px;
+        width: 100%;
+    }
+
+    .tutorial{
+        font-size:20px;
+    }
+
+    .register{
+        font-size:20px;
     }
 }
 
